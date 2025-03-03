@@ -15,6 +15,10 @@ jobs:
         run: npm run lint
       - name: Test code
         run: npm run test
+        
+      - name: Ensure dist folder exists (if needed)
+        run: mkdir -p dist
+
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
