@@ -15,8 +15,8 @@ jobs:
         run: npm run lint
       - name: Test code
         run: npm run test
-        
-      - name: Ensure dist folder exists (if needed)
+
+      - name: Ensure dist folder exists (if  yes needed)
         run: mkdir -p dist
 
       - name: upload artifact
