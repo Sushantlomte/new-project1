@@ -2,7 +2,8 @@ name: Deploy website 1
 on:
   push:
     branches:
-      - dev
+      - main
+  workflow_dispatch:
 
 jobs:
   test:
