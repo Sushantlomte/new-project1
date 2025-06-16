@@ -10,6 +10,9 @@
     "preview": "vite preview",
     "test": "vitest run"
   },
+}
+  #madhu
+}
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
